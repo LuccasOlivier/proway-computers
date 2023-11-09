@@ -1,27 +1,26 @@
-# ProWayComputers
+# ProWay Computers E-Commerce
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+Bem-vindo ao ProWay Computers E-Commerce, um projeto desenvolvido para demonstrar minhas habilidades em desenvolvimento web e lógica de e-commerce.
 
-## Development server
+## Visão Geral
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este projeto é um site de e-commerce com funcionalidades essenciais de um sistema de compras online, estou incrementando algumas funcionalidades ainda. Ele inclui:
 
-## Code scaffolding
+- Roteamento para navegação fácil entre páginas.
+- Barra de pesquisa para encontrar produtos rapidamente.
+- Carrinho de compras que atualiza dinamicamente.
+- Páginas dedicadas a produtos, carrinho e informações de contato.
+- Design responsivo para uma experiência amigável em dispositivos móveis.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias Utilizadas
 
-## Build
+- Angular: Um framework poderoso para construção de aplicativos web.
+- HTML, CSS, TypeScript: Linguagens essenciais para desenvolvimento web moderno.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Como Acessar o Projeto
 
-## Running unit tests
+Você pode acessar o ProWay Computers E-Commerce através da seguinte URL:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+[ProWay Computers E-Commerce](https://luccasolivier.github.io/proway-computers/)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Certifique-se de ter uma conexão com a internet e um navegador web moderno para uma experiência ideal.
