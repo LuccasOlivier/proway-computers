@@ -1,0 +1,75 @@
+.contact__title {
+  font-size: 44px;
+  color: var(--gray);
+  font-weight: 700;
+  padding: 8px 0;
+}
+
+.contact-form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-bottom: 50px;
+  min-width: 300px;
+}
+
+.contact-form button {
+  align-self: flex-end;
+  background-color: var(--blue);
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 6px 12px;
+  width: 200px;
+}
+
+.contact-form button:hover {
+  filter: brightness(1.1);
+}
+
+.contact__container {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 20px;
+  padding: 20px 0;
+}
+
+.contact-form button:disabled {
+  background-color: var(--gray);
+}
+
+.contact-form button:disabled:hover {
+  filter: none;
+}
+
+/* Estilo para campos válidos */
+.valid {
+  border: 1px solid #4CAF50; /* Borda verde */
+  background-color: #E8F5E9; /* Cor de fundo suave */
+  color: #4CAF50; /* Cor do texto verde */
+}
+
+/* Estilo para campos inválidos */
+.invalid {
+  border: 1px solid #F44336; /* Borda vermelha */
+  background-color: #FFEBEE; /* Cor de fundo suave */
+  color: #F44336; /* Cor do texto vermelho */
+}
+
+.error-message {
+  color: red; /* Defina o estilo que deseja para a mensagem de erro */
+  font-size: 14px; /* Outros estilos desejados */
+}
+
+.form, input {
+  box-sizing: border-box;
+  height: 30px; /* Ajuste a altura conforme necessário */
+  padding-top: 20px; /* Ajuste o espaçamento superior conforme necessário */
+  padding-bottom: 20px;
+  width: 700px;
+}
+
+.form, textarea {
+  width: 694px;
+}

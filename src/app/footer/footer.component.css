@@ -1,0 +1,67 @@
+/* Estilo para o elemento do rodapé */
+.footer {
+  background-color: #F0ECF1;
+  color: var(--gray);
+  font-size: 18px;
+  padding: 10px 0; /* Reduza a altura do preenchimento vertical */
+  text-align: center; /* Centralize o conteúdo */
+}
+
+/* Estilo para o conteúdo dentro do "container" */
+.footer__container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; /* Se necessário, quebre as seções para a próxima linha */
+  margin-top: 20px; /* Adicione margem superior para espaçamento entre as seções */
+  padding: 10px; /* Reduza o preenchimento interno do "container" */
+}
+
+/* Estilo para a seção "Sobre" no rodapé */
+.footer__container section {
+  flex: 1;
+  max-width: 400px; /* Aumente a largura máxima para a seção "Sobre" */
+  margin: 10px; /* Adicione margem entre as seções "Sobre" e "Contato" */
+  text-align: justify; /* Alinhe o texto à justificação */
+}
+
+/* Estilo para a seção "Contato" no rodapé */
+.footer__container address {
+  flex: 1;
+  max-width: 400px; /* Aumente a largura máxima para a seção "Contato" */
+  margin: 10px; /* Adicione margem entre as seções "Sobre" e "Contato" */
+  text-align: left;
+}
+
+/* Estilo para a seção de direitos autorais no rodapé */
+.footer__copyright {
+  text-align: center;
+  margin-top: 20px;
+  background-color: var(--light-gray-2);
+  font-weight: bold;
+  padding: 20px;
+  color: var(--gray);
+}
+
+.footer__title {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--blue);
+  margin-bottom: 5px;
+}
+
+/* Estilo para os ícones de contato */
+.footer i {
+  color: var(--orange);
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilo para as listas no rodapé */
+.footer li {
+  margin: 10px 0;
+
+}
